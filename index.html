@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start of Home -->
+    <header id="bgi">
+        <!-- all -->
+        <div class="container">
+            <!-- nav bar with logo -->
+            <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="img/bakery-light-1.png" class="w-50" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#bgi">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#About">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#location">Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="order.html">Our Baking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Contatct">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Team.html">Our Team</a>
+                            </li>
+                            <li id="cart" class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="delivery_info.html"><i
+                                        class="fa-solid fa-motorcycle icon2"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- end of nav bar -->
+            <!-- middle text -->
+            <div class="tex text-center text-light m-5">
+                <span class="fs-3">Welcome to</span>
+                <h1 class="fs fw-bolder">Family Bakery</h1>
+                <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
+            </div>
+            <!-- end of middle text -->
+        </div>
+    </header>
+    <!-- end of Home -->
+    <!-- Start of about -->
+    <section id="About">
+        <div class="container">
+            <!-- grid system -->
+            <div class="row m-5">
+                <!-- image  -->
+                <div class="col-md-6">
+                    <img src="img/alexandru-stavrica-170390-800x760.jpg" class="w-100" alt="">
+                </div>
+                <!-- text of about us -->
+                <div class="col-md-6 text-muted ps-4">
+                    <h2 class="m-3">Who we are?</h2>
+                    <p class="m-3 ps-3 lh-lg">We have been operating for over 30 years and are Members of The Federation
+                        of
+                        Master Builders. We
+                        work on projects big and small from small residential extensions to full house. We are so happy
+                        with
+                        this theme. Everyday it make our lives better.</p>
+                    <ul class="list-unstyled">
+                        <li class="m-3"><i class="fa-brands fa-envira fs-3 m-2 icon"></i> We care about environment.
+                        </li>
+                        <li class="m-3"><i class="fa-solid fa-users-line fs-3 m-2 icon"></i> We care about environment.
+                        </li>
+                        <li class="m-3"><i class="fa-solid fa-heart fs-3 m-2 icon"></i> We care about environment.</li>
+                        <li class="m-3"><i class="fa-solid fa-check fs-3 m-2 icon"></i> We care about environment.</li>
+                    </ul>
+
+                </div>
+                <!-- end of text -->
+            </div>
+        </div>
+    </section>
+    <!-- end of about -->
+    <!-- start of location -->
+    <section id="location" class="bg-light">
+        <div class="container p-5">
+            <div class="row m-5 text-muted">
+                <div class="col-md-6">
+                    <div class="text">
+                        <h2 class="p-2">Our Location</h2>
+                        <p class="p-3 lh-lg"><span>Urban Oasis Plaza:</span><br>
+
+                            Nestled in the heart of the city, Urban Oasis Plaza was chosen for its vibrant atmosphere
+                            and accessibility. With a blend of modern architecture and green spaces, it provides a
+                            dynamic backdrop for our venture. Proximity to public transportation and a bustling city
+                            life make it an ideal spot for attracting diverse customers and talent.
+                            Serene Harborfront Haven.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/full-2-800x640.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of location -->
+    <!-- start of our baking -->
+    <section id="Obaking">
+        <div class="container p-5 text-center">
+            <h1 class="p-5 text-muted">Our Baking</h1>
+            <div class="row text-muted">
+                <div class="col-md-4 text-center">
+                    <div class="cont">
+                        <img src="img/stas-ovsky-123540-600x500.jpg" class="w-100" alt="">
+                        <h3 class="p-3">Bagels</h3>
+                        <p class="p-3 lh-lg">type of bread product that originated in Poland and is now a popular food
+                            item in many parts of the world.</p>
+                        <button id="navi" onclick=" navigate()" class="btn btn-outline-warning p-2 btn1">Order
+                            Here</button>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="cont">
+                        <img src="img/ben-garratt-134774-600x500.jpg" class="w-100" alt="">
+                        <h3 class="p-3">Superior Breads</h3>
+                        <p class="p-3 lh-lg">Bread is a staple food that has been a dietary mainstay in various cultures
+                            for centuries. It is typically made from flour, water, salt, and yeast.</p>
+                        <button class="btn btn-outline-warning  p-2 btn1" onclick=" navigate()">Order Here</button>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="cont">
+                        <img src="img/clem-onojeghuo-206832-600x500.jpg" class="w-100" alt="">
+                        <h3 class="p-3">Cookies</h3>
+                        <p class="p-3 lh-lg">soft, chewy, crispy, or somewhere in between, depending on the recipe and
+                            baking time. </p>
+                        <button class="btn btn-outline-warning p-2 btn1" onclick=" navigate()">Order Here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of our baking -->
+    <!-- start of contact -->
+    <section id="Contatct" class="bg-light">
+        <div class="container p-5">
+            <div class="row text-muted">
+                <div class="col-md-6">
+                    <h1 class="p-4">Contact Information</h1>
+                    <p class="p-2 lh-lg">I am text block. Click edit button to change this text. Lorem ipsum dolor sit
+                        amet,
+                        consectetur
+                        adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <span>Our contact details:</span>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-map icon p-3"></i> 180 Greenwich St, New York, NY 10007</li>
+                        <li><i class="fa-solid fa-phone icon p-3"></i> +12123128800 </li>
+                        <li><i class="fa-solid fa-headphones-alt icon p-3"></i> +12123128800 </li>
+                        <li><i class="fa-solid fa-envelope icon p-3"></i> family_bakery@yahoo.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48388.929990966964!2d-73.995992!3d40.711233!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1703673547629!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact -->
+    <!-- start of form -->
+    <section id="form">
+        <div class="container p-5">
+            <h1 class="text-center">Message Us</h1>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your phone">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your E-mail">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn1 form-control" onclick="navigateToHome(),viewalert2()">Send Message</button>
+        </div>
+    </section>
+    <!-- end of form -->
+    <!-- start of footer -->
+    <footer id="fot">
+        <div class="container text-center">
+            <img src="img/bakery-light-1.png" class="fh" alt="">
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/JS.js"></script>
+</body>
+
+</html>

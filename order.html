@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="bgc">
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg  navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="img/bakery-light-1.png" class="w-50" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="order.html">Our Baking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Team.html">Our Team</a>
+                            </li>
+                            <li id="cart" class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="delivery_info.html"><i
+                                        class="fa-solid fa-motorcycle "></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="items" class="p-5">
+        <div class="container ">
+            <div class="row gy-5">
+                <!-- card 1 -->
+                <div class="col-md-4">
+                    <div class="card overflow-hidden" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/Apple Pie.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body over">
+                            <h5 class="card-title" id="Name">Apple Pie</h5>
+                            <p class="card-text"> a classic dessert that consists of a sweetened apple filling encased
+                                in a pastry crust. The filling is typically made by combining sliced or chopped apples
+                                with sugar, spices </p>
+                            <h3 class="card-title p-2" id="price">15$</h3>
+                            <button href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/Blackberry Cake.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Blackberry Cake</h5>
+                            <p class="card-text">dessert that features blackberries as a primary ingredient, often
+                                incorporated into the batter, filling, or topping of the cake.</p>
+                            <h3 class="card-title p-2">15$</h3>
+                            <a href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/carrot cake.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">carrot cake</h5>
+                            <p class="card-text">type of cake that includes grated carrots as a key ingredient. It's
+                                known for its moist and dense texture.</p>
+                            <h3 class="card-title p-2">15$</h3>
+                            <a href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/Chocolate Babka.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Babka</h5>
+                            <p class="card-text">Chocolate babka is a sweet, yeast-raised bread or cake that originated
+                                in Eastern European Jewish communities.</p>
+                            <h3 class="card-title p-2">15$</h3>
+                            <a href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/Fudge Nut Brownies.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fudge Nut Brownies</h5>
+                            <p class="card-text">type of brownie that combines the rich, fudgy texture of traditional
+                                brownies with the addition of nuts for extra flavor and crunch.</p>
+                            <h3 class="card-title p-2">15$</h3>
+                            <a href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <div class="overflow-hidden">
+                            <img src="img/Peanut Butter Cookies.jpg" class="card-img-top hov" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Peanut Butter Cookies</h5>
+                            <p class="card-text">a classic and popular type of cookie that features peanut butter as a
+                                primary ingredient, contributing a rich and nutty flavor. </p>
+                            <h3 class="card-title p-2">15$</h3>
+                            <a href="#" class="btn btn-outline-warning p-2 btn1" onclick="viewalert()">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="fot">
+        <div class="container text-center">
+            <img src="img/bakery-light-1.png" class="fh" alt="">
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/JS.js"></script>
+</body>
+
+</html>
