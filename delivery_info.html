@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 </head>
-</head>
+
 <body>
     <header id="bgc">
-        <div class="container " id="bd">
-            <nav class="navbar navbar-expand-lg  navbar-dark">
+        <div class="container" id="bd">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img src="img/bakery-light-1.png" class="w-50" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,26 +27,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Location</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="order.html">Our Baking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Team.html">Our Team</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="index.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="index.html">Location</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="order.html">Our Baking</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="index.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="Team.html">Our Team</a></li>
                             <li id="cart" class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="delivery_info.html"><i class="fa-solid fa-motorcycle "></i></a>
+                                <a class="nav-link active" href="delivery_info.html"><i
+                                        class="fa-solid fa-motorcycle"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -53,45 +43,25 @@
             </nav>
         </div>
     </header>
-    <!-- start of clint data -->
-    <section id="form" class="bg-light">
-        <div class="container p-5 shadow">
-            <form action="" >
-            <h1 class="text-center">Delivery Data</h1>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Phone</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your phone">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your E-mail">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your Address">
-              </div>
-              <button class="btn form-control btn1" onclick="viewalert3()">Send order</button>
-            </form>
+
+    <!-- Cart Section -->
+    <section id="cart-content" class="bg-light p-5 shadow">
+        <div class="container">
+            <h1 class="text-center">Your Cart</h1>
+            <ul id="cart-items" class="list-group mb-3"></ul>
+            <h3 id="total-price" class="text-center">Total: $0.00</h3>
+            <button id="clear-cart" class="btn btn1 w-100 mt-3">Clear Cart</button>
         </div>
     </section>
-    <!-- end of clint data -->
-    <!-- start of footer -->
+
     <footer id="fot">
         <div class="container text-center">
             <img src="img/bakery-light-1.png" class="fh" alt="">
         </div>
     </footer>
-    <!-- end of footer -->
 
-
-
-
-
-    <script src="js/js.js"></script>
+    <script src="js/JS.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

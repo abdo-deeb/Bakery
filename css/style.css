@@ -1,47 +1,57 @@
-body{
+body {
     font-family: 'Playfair Display', serif;
 }
 
-#bgi{
-    background-image:url(../img/drew-coffman-1872.jpg);
+#bgi {
+    background-image: url(../img/drew-coffman-1872.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
 }
-.tex{
+
+.tex {
     margin-top: 200px !important;
 }
-.fs{
+
+.fs {
     font-size: 70px;
 }
-.btn1{
+
+.btn1 {
     border-color: #8E7754 !important;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: #aa8f66 !important;
 }
-.icon{      
+
+.icon {
     /* class for About Us logos in index form */
     font-size: 30px;
-    background-color:#fff;
+    background-color: #fff;
     color: #aa8f66 !important;
 }
-.icon2{
+
+.icon2 {
     /* class for motorcycle logo in index form */
     font-size: 30px;
     color: #aa8f66 !important;
 }
-#fot{
+
+#fot {
     height: 50vh;
     background-color: RGB(53, 51, 48);
 }
-.fh{
+
+.fh {
     padding-top: 150px;
 }
-#bgc{
+
+#bgc {
     background-color: #aa8f66;
 }
-.icon3{
+
+.icon3 {
     /* icon for Team logo
      */
     font-size: 28px;
@@ -49,13 +59,16 @@ body{
     color: #aa8f66;
     border-radius: 20px;
 }
-.icon3:hover{
+
+.icon3:hover {
     color: #fff;
     background-color: #aa8f66;
 }
-.hov{
+
+.hov {
     transition: all 1s;
 }
-.hov:hover{
+
+.hov:hover {
     transform: scale(1.4);
 }
